@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     #my apps 
     'books.apps.BooksConfig', #new
     'api.apps.ApiConfig', 
+    'workers.apps.WorkersConfig',
 ]
 
 MIDDLEWARE = [
